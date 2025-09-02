@@ -27,6 +27,10 @@ dependencies = [
     "plone.api",
     "plone.restapi",
     "plone.volto",
+    "kitconcept.voltolighttheme==7.0.0a25",
+    "collective.volto.formsupport",
+    "collective.honeypot",
+    "plonegovbr.socialmedia>=2.0.0a6"
 ]
 
 [project.optional-dependencies]

@@ -40,6 +40,7 @@ Disallow: /*edit</value>
     </value>
     <value key="site_favicon_mimetype">image/vnd.microsoft.icon</value>
     <value key="site_title">Comunidade Plone Brasil</value>
+    <value key="email_from_name">Comunidade Plone Brasil</value>
     <value key="thumb_scale_listing">thumb</value>
     <value key="thumb_scale_portlet">icon</value>
     <value key="thumb_scale_summary">mini</value>

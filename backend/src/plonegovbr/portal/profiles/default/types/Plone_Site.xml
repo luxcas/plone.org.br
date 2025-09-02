@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object name="Plone Site" meta_type="Dexterity FTI" i18n:domain="plone"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+ <property name="behaviors">
+  <element value="plone.basic"/>
+  <element value="plone.categorization"/>
+  <element value="plone.publication"/>
+  <element value="plone.ownership"/>
+  <element value="plone.relateditems"/>
+  <element value="plone.locking"/>
+  <element value="voltolighttheme.footer"/>
+  <element value="voltolighttheme.header"/>
+  <element value="voltolighttheme.theme"/>
+  <element value="plone.versioning"/>
+  <element value="kitconcept.footer"/>
+  <element value="volto.blocks"/>
+  <element value="plonegovbr.socialmedia.settings"/>
+ </property>
+
+</object>

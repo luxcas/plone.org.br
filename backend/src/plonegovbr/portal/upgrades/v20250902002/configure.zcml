@@ -1,0 +1,34 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  
+  <genericsetup:upgradeSteps
+      profile="plonegovbr.portal:default"
+      source="20250902001"
+      destination="20250902002"
+      >
+    <genericsetup:upgradeDepends
+        title="Update registry value"
+        import_steps="plone.app.registry"
+        />
+    <genericsetup:upgradeDepends
+        title="Update voltolighttheme"
+        import_profile="kitconcept.voltolighttheme:default"
+        />
+    <genericsetup:upgradeDepends
+        title="Update volto formsupport"
+        import_profile="collective.volto.formsupport:default"
+        />
+    <genericsetup:upgradeDepends
+        title="Update plonegovbr socialmedia"
+        import_profile="plonegovbr.socialmedia:default"
+        />  
+
+  </genericsetup:upgradeSteps>
+ 
+
+  <!-- -*- extra stuff goes here -*- -->
+
+</configure>

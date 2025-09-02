@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-  <version>1000</version>
+  <version>20250902003</version>
   <dependencies>
     <dependency>profile-plone.volto:default</dependency>
+    <dependency>profile-kitconcept.voltolighttheme:default</dependency>
+    <dependency>profile-collective.volto.formsupport:default</dependency>
+    <dependency>profile-plonegovbr.socialmedia:default</dependency>
   </dependencies>
 </metadata>
