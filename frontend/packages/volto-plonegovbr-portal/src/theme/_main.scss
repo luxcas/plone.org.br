@@ -1,0 +1,11 @@
+:root{
+    --narrow-container-width: 1024px;
+    --defalut-container-width: 10240px;
+    --layout-container-width: 1024px;
+}
+
+h1.documentFirstHeading{
+    @include cor-azul;
+    @include add (size, 4xl);
+}
+
