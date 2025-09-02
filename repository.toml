@@ -1,0 +1,37 @@
+[repository]
+name = "plone.org.br"
+managed_by_uv = false
+changelog = "CHANGELOG.md"
+version = "version.txt"
+compose = "docker-compose.yml"
+
+[repository.towncrier]
+section = "Project"
+settings = "towncrier.toml"
+
+[backend]
+path = "backend"
+
+[backend.package]
+name = "plonegovbr.portal"
+path = "backend"
+changelog = "backend/CHANGELOG.md"
+towncrier_settings = "backend/pyproject.toml"
+base_package = "Products.CMFPlone"
+publish = false
+
+[frontend]
+path = "frontend"
+
+[frontend.package]
+name = "volto-plonegovbr-portal"
+path = "frontend/packages/volto-plonegovbr-portal"
+changelog = "frontend/packages/volto-plonegovbr-portal/CHANGELOG.md"
+towncrier_settings = "frontend/packages/volto-plonegovbr-portal/towncrier.toml"
+base_package = "@plone/volto"
+publish = false
+
+[cookieplone]
+template = "project"
+template_version = "8004290a4abc3f581e3111b973522c64c3463683"
+generated_date = "2025-09-02 13:58:51"
