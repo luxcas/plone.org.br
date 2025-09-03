@@ -4,6 +4,11 @@
     i18n_domain="plonegovbr.portal"
     >
 
+  <permission
+    id="plonegovbr.portal.livevideo.add"
+    title="plonegovbr.portal: Add Live Video"
+    />
+
   <!-- -*- extra stuff goes here -*- -->
 
 </configure>
